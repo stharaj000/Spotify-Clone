@@ -1,0 +1,12 @@
+.grybackground{
+    background-color: #121212;;
+}
+
+
+.boder{
+    border-radius: 10px;
+}
+
+.invert{
+    filter: invert();
+}

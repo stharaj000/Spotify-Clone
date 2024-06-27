@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utility.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="home grybackground">
+                <div class="logo">
+                    <a href="https://open.spotify.com/" target=”_blank”><img class="logosvg" src="img/logo.svg"
+                            alt="logo"></a>
+                        <img class="X invert" src="img/x.svg" alt="">
+                </div>
+
+                <ul>
+                    <li><img class="homesvg" src="img/home.svg" alt="Home">Home</li>
+                    <li id="srch"><img class="searchsvg" src="img/search.svg" alt="search">Search </li>
+                </ul>
+            </div>
+
+
+            <div class="library grybackground">
+                <div class="library_title">
+                    <div class="first"><img src="img/library.svg" alt="Library"> Your Library</div>
+                    <div class="second">+</div>
+                </div>
+
+                <div class="main_library">
+                    <ul>
+
+                    </ul>
+                </div>
+
+
+                <div class="footer">
+                    <ul>
+                        <li>Legal</li>
+                        <li>Safety & Privacy Center</li>
+                        <li>Privacy Policy</li>
+                        <li>Cookies</li>
+                        <li>Abour Ads</li>
+                        <li>Accessibility</li>
+                        <li>Cookies</li>
+                    </ul>
+                    <div class="lang">
+                        <img src="img/globe.svg" alt="Globe">English
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+        <div class="right grybackground boder">
+            <div class="rightheader">
+                
+                <nav>
+                    <img class="hamburger invert" src="img/hamburger.svg" alt="">
+                    <button class= "noneed" ><svg xmlns=" http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                            color="#000000" fill="none">
+                            <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" stroke="#ffffff"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg></button>
+                    <button class= "noneed" ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                            color="#ffffff" fill="none">
+                            <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="currentColor"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg></button>
+                </nav>
+
+                <div class="log_button">
+                    <button class="btn1 grybackground">Sign up</button>
+                    <button class="btn2">Log in</button>
+                </div>
+            </div>
+            <div class="spotifyplaylist border ">
+                <h1>Spotify Playlists</h1>
+                <div class="card_container">
+                    
+                </div>
+            </div>
+            <div class="buttongrp">
+                <div class="songname">...</div>
+
+                <div class="playbar">
+                    <img id="previousbtn" src="img/previous.svg" alt="">
+                    <img id="playbutton" src="img/playbutton.svg" alt="">
+                    <img id="nextbtn" src="img/next.svg" alt="">
+                </div>
+
+                <div class="songTime">00:00/00:00</div>
+
+                <div class="volume invert">
+                    <img class="volsvg" src="img/volume.svg" alt="">
+                    <div class="range">
+                        <input id="grn" type="range" name="volume">
+                    </div>
+                </div>
+            </div>
+            <div class="progressbar">
+                <div class="dot"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="JS/script.js"></script>
+</body>
+
+</html>
