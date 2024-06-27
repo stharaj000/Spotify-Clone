@@ -1,1 +1,1 @@
-# Me pushing My code into github for first time
+# Me pushing My code into GitHub for first time
